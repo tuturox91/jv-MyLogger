@@ -4,11 +4,11 @@
  * Don't forget about empty lines in the end of files.
  * Let's make our log messages informative
 
-``` 
-Bad example: 
+Bad example:
+```java
     logger.debug("Method login was called");
 ```
-``` 
-Good example: 
+Good example:
+```java
     logger.debug("Method login was called. Params: login={}", login);
 ```
